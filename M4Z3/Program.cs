@@ -1,6 +1,8 @@
 ﻿using System.Reflection.Metadata;
 //Character("namn", hp, dmg, accuracy, armorClass);
-Character Micke=new Character("Micke", 500, 1000);
+Character Micke=new Character("Micke", 500, 1000, 4, 4);
+Character Krank=new
+Character Neo=new("Neo")
 
 Menu();
 Console.ReadLine();
