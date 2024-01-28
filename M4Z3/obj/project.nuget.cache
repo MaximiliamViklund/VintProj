@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uGMfP4OvEVvC3tEUioKcLD9qPS5ObUwIxUEg1rWTes62tCywv52qoCiJF9ohaFrdPlXWpv7MFRVciRS9Q+lvQw==",
+  "dgSpecHash": "i96YHgOezwECVSiNW/cUFtRVCiv5zOVahfOwwd3+yXnFCSR5rS/MwnE51EMN4CmBB5Ou0yELZ5f2jadcqklyiA==",
   "success": true,
   "projectFilePath": "D:\\PRRPRR01\\VintProj\\M4Z3\\M4Z3.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\maximiliam.viklund\\.nuget\\packages\\raylib-cs\\5.0.0\\raylib-cs.5.0.0.nupkg.sha512",
+    "C:\\Users\\maximiliam.viklund\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
