@@ -1,8 +1,6 @@
 ﻿using System.Reflection.Metadata;
+using System.Reflection.PortableExecutable;
 //Character("namn", hp, dmg, accuracy, armorClass);
-Character Micke=new Character("Micke", 500, 1000, 4, 4);
-Character Krank=new
-Character Neo=new("Neo")
 
 Menu();
 Console.ReadLine();
@@ -63,6 +61,7 @@ static void Play(){
     int armorClass2=0;
     int dice=0;
     Random generator = new Random();
+    int cha;
 
     Console.WriteLine("Choose your character");
     Console.WriteLine("a) Character 1");
@@ -136,10 +135,7 @@ static void Play(){
     Console.Clear();
 
     Console.WriteLine("Let's get ready!!");
-    Fight();
-}
-
-static void Fight(){
+    Console.ReadLine();
     while(hp2>0&&hp1>0){
         Console.WriteLine("Press ENTER to attack");
         Console.ReadLine();
@@ -198,6 +194,5 @@ static void Fight(){
         Console.Clear();
         Menu();
     }
-}
-   
+}  
 int x=(int) 0f;

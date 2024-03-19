@@ -1,4 +1,4 @@
- class Character{
+class Character{
         int hp1=0;
         int hp2=0;
         int dmg1=0;
